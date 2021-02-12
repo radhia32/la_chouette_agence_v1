@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
 	
-		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
-	<script src="./js/jquery-2.1.0.min.js"defer></script>
-	<script src="./js/bootstrap.min.js"defer></script>
-	<script src="./js/blocs.min.js"defer></script>
+	<script src="./js/jquery-2.1.0.js"defer></script>
+	<script src="./js/bootstrap.js"defer></script>
+	<script src="./js/blocs.js"defer></script>
 	<script src="./js/jqBootstrapValidation.js"defer></script>
 	<script src="./js/formHandler.js"defer></script>
 
@@ -33,8 +33,8 @@
 	<header class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img 
-					src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" />
+				<a class="navbar-brand" href="index.html">
+					<img src="img/la-chouette-agence.png" alt="lyon web design title" height="40" />
 					</a>
 				<button id="nav-toggle" type="button" 
 				class="ui-navbar-toggle navbar-toggle" 
@@ -46,15 +46,14 @@
 					<span class="icon-bar"></span>
 				</button>
 			</div>
-
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a href="index.html"title ="contacter nous envoyer nous un message">Accueil</a>
 					</li>
 					
 					<li>
-						<a href="contact.html">contact</a>
+						<a href="contact.html"title ="contacter nous envoyer nous un message">contact</a>
 					</li>
 				</ul>
 			</div>
@@ -87,15 +86,11 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
+						<label for="name">Nom</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
+						<label for="email">	Adresse email</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
