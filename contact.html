@@ -11,23 +11,20 @@
 		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
-	<script src="./js/jquery-2.1.0.js"defer></script>
-	<script src="./js/bootstrap.js"defer></script>
-	<script src="./js/blocs.js"defer></script>
-	<script src="./js/jqBootstrapValidation.js"defer></script>
-	<script src="./js/formHandler.js"defer></script>
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
+	<script src="./js/jqBootstrapValidation.js" defer></script>
+	<script src="./js/formHandler.js" defer></script>
 
 	<title>La chouette agence, l'agence de web design à Lyon "contact"</title> 
 	
 <!-- Analytics -->
-
-<!-- Analytics END -->
-    
+<!-- Analytics END -->  
 </head>
 <body>
 <!-- Principal conteneur -->
 <section class="page-container">  
-
 <!-- bloc-0 -->
 <div class="bloc bgc-white l-bloc " id="bloc-0">
 	<header class="container bloc-sm">
@@ -49,11 +46,11 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html"title ="contacter nous envoyer nous un message">Accueil</a>
+						<a href="index.html" title ="contacter nous envoyer nous un message">Accueil</a>
 					</li>
 					
 					<li>
-						<a href="contact.html"title ="contacter nous envoyer nous un message">contact</a>
+						<a href="contact.html" title ="contacter nous envoyer nous un message">contact</a>
 					</li>
 				</ul>
 			</div>
@@ -84,7 +81,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate >
 					<div class="form-group">
 						<label for="name">Nom</label>
 						<input id="name" class="form-control" required />
@@ -94,15 +91,12 @@
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<label for="know">Comment nous avez-vous connu?</label>
+						<input id="know" class="form-control" type="text" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br> </label>	
+						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -122,7 +116,7 @@
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 <!-- Footer - bloc-8 -->
-<footerclass="bloc bgc-atomic-tangerine d-bloc id="bloc-8">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -155,8 +149,9 @@
 		</div>
 	</div>
 </footer>
-<!-- Footer - bloc-8 END -->
-</div>
-<!-- Principal conteneur END -->
+</section>
 </body>
 </html>
+<!-- Footer - bloc-8 END -->
+<!-- Principal conteneur END -->
+
